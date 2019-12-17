@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>C0DA7917D6A41F665AC0EDD5A574BB03</Name>
+      <Value>Project Workspace/Branch3/Or.okor</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\OpenBrowser</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>ValueFromGlobalVariable</DataSource>
+          <GV_RelativePath>GlobalVariables\Default Browser</GV_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">https://www.google.com/search?q=myntra&amp;rlz=1C1GCEV_en&amp;oq=myntra&amp;aqs=chrome..69i57.6441j0j4&amp;sourceid=chrome&amp;ie=UTF-8</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\ClickLink</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\myntra - Google Search\Myntra: Online Shopping</Obj_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\SelectWindow</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Title</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra</StaticValue>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>TitleIndex</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">0</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\SyncBrowser</Keyword_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\Click</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra\Profile</Obj_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\SyncBrowser</Keyword_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\ClickLink</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Online Shopping for Women, Men, Kids Fashion &amp; Lifestyle - Myntra\SIGN UP</Obj_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\SelectWindow</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Title</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">Register</StaticValue>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>TitleIndex</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:int">0</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\SyncBrowser</Keyword_RelativePath>
+      <StepInputArgs />
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\TypeTextOnEditBox</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\email</Obj_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">helloatompcloudy@gmail.com</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\TypeSecureText</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\password</Obj_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">[X,1,iGu04ja61xpn]zw/ld8xeCiB0BwU5u/zWHQ==</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\TypeTextOnEditBox</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\mobile</Obj_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">9992089743</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\SelectRadioButton</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\gender</Obj_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Index</Name>
+          <DataSource>StaticValue</DataSource>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\SelectRadioButton</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\gender</Obj_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Index</Name>
+          <DataSource>StaticValue</DataSource>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\ClickButton</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\REGISTER</Obj_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\TypeSecureText</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\password(1)</Obj_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>Value</Name>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">[X,1,7AeHDO+fq+0O]8Id7KvoCecuz4GkNJ3u2bw==</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>false</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>false</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword\ClickButton</Keyword_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Object</Name>
+          <DataSource>StaticValue</DataSource>
+          <Obj_RelativePath>C0DA7917D6A41F665AC0EDD5A574BB03\Register\REGISTER</Obj_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+  </FlowSteps>
+</FlowSchema>
