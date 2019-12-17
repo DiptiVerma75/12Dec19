@@ -24,8 +24,8 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Browser</Name>
-          <DataSource>ValueFromGlobalVariable</DataSource>
-          <GV_RelativePath>GlobalVariables\Default Browser</GV_RelativePath>
+          <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:string">chrome</StaticValue>
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>URL</Name>
@@ -39,7 +39,7 @@
     </TestStep>
     <TestStep>
       <ContinueOnError>false</ContinueOnError>
-      <IsNegative>false</IsNegative>
+      <IsNegative>true</IsNegative>
       <ShouldRun>true</ShouldRun>
       <WantSnapshot>false</WantSnapshot>
       <Keyword_RelativePath>OpKeyGenericKeyword\ClickLink</Keyword_RelativePath>
