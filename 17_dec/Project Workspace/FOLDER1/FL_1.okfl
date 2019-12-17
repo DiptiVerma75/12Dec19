@@ -249,6 +249,13 @@
       </StepOutputArgs>
     </TestStep>
   </TestSteps>
-  <InputParameters />
+  <InputParameters>
+    <ComponentInputParameter>
+      <Name>input-parameter-1</Name>
+      <DefaultValues />
+      <IsMandatory>true</IsMandatory>
+      <Type>String</Type>
+    </ComponentInputParameter>
+  </InputParameters>
   <OutputParameters />
 </ComponentSchema>
